@@ -39,7 +39,7 @@ hrm-recorder config
 Create and use a `recorder` instance:
 
 ```python
-from hrm-recorder import recorder
+from hrm_recorder import recorder
 
 # Create a new recorder instance
 hrm = recorder()

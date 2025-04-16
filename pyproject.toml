@@ -1,14 +1,19 @@
 [project]
 name = "hrm-recorder"
-version = "0.1.2"
+version = "1.0.0"
 description = "A Python-based BLE heart rate monitor recorder using Bleak"
-authors = [{ name = "Gordon Dodwell" }]
+authors = [{ name = "Gordon Dodwell", email = "gcdodwell@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = ["bleak>=0.20"]
 
 [project.scripts]
 hrm-recorder = "hrm_recorder.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/Cortexan/hrm_recorder"
+Repository = "https://github.com/Cortexan/hrm_recorder"
+Issues = "https://github.com/Cortexan/hrm_recorder"
 
 [build-system]
 requires = ["setuptools"]

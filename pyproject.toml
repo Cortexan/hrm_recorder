@@ -1,0 +1,18 @@
+[project]
+name = "hrm-recorder"
+version = "0.1.0"
+description = "A Python-based BLE heart rate monitor recorder using Bleak"
+authors = [{ name = "Gordon Dodwell" }]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["bleak>=0.20"]
+
+[project.scripts]
+hrm-monitor = "hrmpy.cli:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+license-files = []

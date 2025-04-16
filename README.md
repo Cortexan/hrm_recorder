@@ -15,7 +15,7 @@ pip install hrm-recorder
 
 Or install from source:
 ```bash
-git clone https://github.com/Cortexan/hrm-recorder.git
+git clone https://github.com/Cortexan/hrm_recorder.git
 cd hrm-recorder
 pip install .
 ```
